@@ -57,6 +57,18 @@ docker run --env KARDIA_ACCESS_KEY=9htu7p3o --env KARDIA_SECRET_KEY=91zazqim --e
 ```
 ### Once server setup you can run the above mentioend /token service to get the JWT token. 
 
+## The exmaple of this plugin is created with Capacitor Create App
+
+This app was created using [`@capacitor/create-app`](https://github.com/ionic-team/create-capacitor-app),
+and comes with a very minimal shell for building an app.
+
+### Running this example
+
+To run the provided example, you can use `npm start` command.
+
+```bash
+npm start
+```
 
 
 
