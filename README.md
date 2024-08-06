@@ -37,6 +37,33 @@ Developer should have Android Studio and XCode installed in their system for And
 #### Open Android studio
 `npx cap open android`
 
+#### API to get token on local machine
+http://localhost:8080/token
+
+```bash
+{
+"bundleId": "com.currenthealth.byod",
+"partnerId": "8xf2Z5doYNtstscdux7xcvdlnl5mbza8",
+"patientMrn": "ExamplePatient MRN",
+"teamId": "qNc1HfcEvMfVt7ndVqUwcvdlnl1zkrl4"
+}
+```
+### Note: you can generate the authentication token using docker. Install docker from [Docker](https://docs.docker.com/engine/install/)
+
+### ensure that you the following docker command for kardia sandbox environment 
+
+```bash
+docker run --env KARDIA_ACCESS_KEY=9htu7p3o --env KARDIA_SECRET_KEY=91zazqim --env KARDIA_ENV=sandbox -p 8080:8080 kardiasdk/kardia-auth-server ./kardia-auth-server
+```
+### Once server setup you can run the above mentioend /token service to get the JWT token. 
+
+
+
+
+
+
+
+
 
 ## Install
 
