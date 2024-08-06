@@ -5,8 +5,8 @@ AliveCor Plugin for iOS and Android flows, to communicate with AliveCor ECG devi
 
 ## Owners of the repo:
 
-- [AliveCorTeam](https://github.com/orgs/snap40/teams/alivecore)
-- If you need more information about the team, feel free to visit our [Notion page](https://www.notion.so/currenthealth/Team-Rockhopper-2d3ae024ee5b4eb597e5991fa55ecb11).
+- [https://www.notion.so/currenthealth/Team-Capybara-00a693c44694414486c7639d15a47674)
+- If you need more information about the team, feel free to visit our [Notion page](https://www.notion.so/currenthealth/Team-Capybara-00a693c44694414486c7639d15a47674).
 
 ## Regulatory Requirements
 
