@@ -85,13 +85,11 @@ There are two ways to run the alivecor plugin
 
 For iOS Download SDK from [Kardia iOS SDK 1.5.1 ](https://www.notion.so/currenthealth/Team-Capybara-00a693c44694414486c7639d15a47674?pvs=4#cb84c972508a439aa0e5699b25590125)
 
-Under sdk folder open AliveCorKitExample.xcodeproj in XCode to test the Kardia App. Install the app on real iOS device to test with Kardia ECG device. 
+Open the AliveCorKitExample.xcodeproj file located in the sdk folder using Xcode to test the Kardia app. Install the app on a real iOS device to test it with the Kardia ECG device.
 
 For Android Download SDK from [Kardia Android SDK 1.5.1 ](https://www.notion.so/currenthealth/Team-Capybara-00a693c44694414486c7639d15a47674?pvs=4#1c11167b48cc4f2b8aeca74c82109e13)
 
-Under sdk folderd open AliveCorKitExample.xcodeproj to test the Kardia App. 
-
-Under main SDK folder open SampleApp in Android Studio. It will install the depedencies and once done you can run on andorid device to test with Kardia ECG device. 
+Open the SampleApp in Android Studio located in the main SDK folder. It will install the dependencies, and once completed, you can run it on an Android device to test with the Kardia ECG device.
 
 
 ## Install
