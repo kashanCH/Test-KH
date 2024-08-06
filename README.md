@@ -70,11 +70,28 @@ To run the provided example, you can use `npm start` command.
 npm start
 ```
 
+#### Kardia ECG Device 
 
+- To test you must have Kardia ECG device.
+- Kardia ECG device test only possible on real iOS and Android device with blutooth enabled.
+- Please make sure you connect the device before running the iOS or Android if its not connected automatcially. 
 
+#### Build project
+There are two ways to run the alivecor plugin
+- Using Sample App
+- Using Raptor
 
+#### Using Sample App
 
+For iOS Download SDK from [Kardia iOS SDK 1.5.1 ](https://www.notion.so/currenthealth/Team-Capybara-00a693c44694414486c7639d15a47674?pvs=4#cb84c972508a439aa0e5699b25590125)
 
+Under sdk folder open AliveCorKitExample.xcodeproj in XCode to test the Kardia App. Install the app on real iOS device to test with Kardia ECG device. 
+
+For Android Download SDK from [Kardia Android SDK 1.5.1 ](https://www.notion.so/currenthealth/Team-Capybara-00a693c44694414486c7639d15a47674?pvs=4#1c11167b48cc4f2b8aeca74c82109e13)
+
+Under sdk folderd open AliveCorKitExample.xcodeproj to test the Kardia App. 
+
+Under main SDK folder open SampleApp in Android Studio. It will install the depedencies and once done you can run on andorid device to test with Kardia ECG device. 
 
 
 ## Install
