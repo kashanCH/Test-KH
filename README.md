@@ -51,7 +51,7 @@ We can run the AliveCor plugin using the following methods:
 - Using Kardia SDK Sample App
 - Using Raptor - No need to generate JWT token because we have PFS API to generate token automatically. 
 
-### The exmaple of this plugin is created with Capacitor Create App
+## The exmaple of this plugin is created with Capacitor Create App
 
 This app was created using [`@capacitor/create-app`](https://github.com/ionic-team/create-capacitor-app),
 and comes with a very minimal shell for building an app.
@@ -60,7 +60,7 @@ and comes with a very minimal shell for building an app.
 
 To run the provided example, you can use `npm start` command.
 
-## Install
+### Install
 
 ```bash
 npm install alivecor6l
@@ -71,7 +71,7 @@ npx cap sync
 npm start
 ```
 
-### Using Sample App
+## Using Sample App
 
 #### For iOS
 
@@ -85,7 +85,7 @@ For Android Download SDK from [Kardia Android SDK 1.5.1 ](https://www.notion.so/
 
 Open the SampleApp in Android Studio located in the main SDK folder. It will install the dependencies, and once completed, you can run it on an Android device to test with the Kardia ECG device.
 
-### Using Raptor
+## Using Raptor
 
 The following steps must be followed:
 
