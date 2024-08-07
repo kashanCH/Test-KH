@@ -117,17 +117,21 @@ Navigate to the iOS folder. io.chealth.plugins.alivecor6l/iOS/AlivecorECGPluginT
 - To run all tests, go to the top menu and select Product > Test, or simply use the shortcut Command + U. 
 - To run a specific test case or test method, click the diamond icon next to the test or method name in the code editor.
 
-
-
-
-
 ## Releasing
 
 1. Run `npm version (new version number here)` to update the `package.json` and `package-lock.json` files.
 2. Run `npm publish` to release to Nexus.
 
 
-## API
+## Kardia Developer Guide (v. 1.5.1)
+
+#### For Android
+
+[Kardia Android Developer Guide ](https://www.notion.so/currenthealth/Team-Capybara-00a693c44694414486c7639d15a47674?pvs=4#4011296fa957481a839cf7c39183bf8d)
+
+#### For iOS:- 
+
+[Kardia iOS Developer Guide ](https://www.notion.so/currenthealth/Team-Capybara-00a693c44694414486c7639d15a47674?pvs=4#c67749f9a3a0401d931d8fc536b6f62c)
 
 <docgen-index>
 
