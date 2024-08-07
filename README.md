@@ -77,7 +77,7 @@ npm start
 - Please make sure you connect the device before running the iOS or Android if its not connected automatcially. 
 
 #### Build project
-There are two ways to run the alivecor plugin
+We can also run alivecor plugin 
 - Using Sample App
 - Using Raptor
 
