@@ -134,7 +134,9 @@ Navigate to the iOS folder. io.chealth.plugins.alivecor6l/iOS/AlivecorECGPluginT
 [Kardia iOS Developer Guide ](https://www.notion.so/currenthealth/Team-Capybara-00a693c44694414486c7639d15a47674?pvs=4#c67749f9a3a0401d931d8fc536b6f62c)
 
 
-## API
+## APIs and Plugin Methods 
+
+The `onAction` method in the provided code serves as a bridge between the plugin and the flow orchestrator, facilitating communication from the web level down to the plugin level. When triggered, this method extracts relevant context data (such as API key, server environment, and app name) and initiates the AliveCor SDK. It handles the initialization process, manages errors, and launches the appropriate activity to start the ECG reading process. This method ensures that the necessary setup is done and that the plugin can effectively interact with the hardware to perform the required actions.
 
 ### onAction(...)
 
