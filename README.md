@@ -47,7 +47,7 @@ API URL: http://localhost:8080/token
 We can run the AliveCor plugin using the following methods:
 - Exmaple using Capacitor Create App
 - Using Kardia SDK Sample App
-- Using Raptor
+- Using Raptor - No need to generate JWT token because we have PFS API to generate token automatically. 
 
 ### The exmaple of this plugin is created with Capacitor Create App
 
@@ -133,16 +133,8 @@ Navigate to the iOS folder. io.chealth.plugins.alivecor6l/iOS/AlivecorECGPluginT
 
 [Kardia iOS Developer Guide ](https://www.notion.so/currenthealth/Team-Capybara-00a693c44694414486c7639d15a47674?pvs=4#c67749f9a3a0401d931d8fc536b6f62c)
 
-<docgen-index>
 
-* [`onAction(...)`](#onaction)
-* [Interfaces](#interfaces)
-* [Type Aliases](#type-aliases)
-
-</docgen-index>
-
-<docgen-api>
-<!--Update the source file JSDoc comments and rerun docgen to update the docs below-->
+## API
 
 ### onAction(...)
 
