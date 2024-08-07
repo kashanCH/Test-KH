@@ -1,5 +1,7 @@
 # io.chealth.plugins.contour-next-one
 
+[AliveCor Architecture](https://www.notion.so/currenthealth/AliveCor-2-0-Initiative-Overview-d2c16585f8b64acba427b7d4e46e97f2?pvs=4)
+
 AliveCor Plugin for iOS and Android flows, to communicate with AliveCor ECG devices and Peripheral Framework.
 
 
@@ -149,6 +151,20 @@ The `onAction` method in the provided code serves as a bridge between the plugin
 ```typescript
 onAction(options: { actionName: string; ourContext: any; }, onComplete: PluginCallback) => Promise<{ type: string; data: any; }>
 ```
+
+#### getPresigned URL
+
+
+
+```bash
+curl --location -XPOST <https://dev-patient-facing.snap40.com/alivecor/upload-url
+--header "Authorization: $PATIENT_ID_TOKEN"
+./gradlew build
+```
+
+Presigned File Uploading [Document ](https://www.notion.so/currenthealth/AliveCor-Presigned-File-Uploading-Spike-acbe4c0185e445a181cce100e6a45719?pvs=4)   
+
+https://www.notion.so/currenthealth/Verifying-Integrity-of-Files-Uploaded-to-S3-via-a-PFS-Presigned-URL-aabaff3c6c0a41ffb4a4441fdba4d572?pvs=4
 
 #### getReading
 
