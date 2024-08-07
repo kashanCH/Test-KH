@@ -85,7 +85,7 @@ For Android Download SDK from [Kardia Android SDK 1.5.1 ](https://www.notion.so/
 
 Open the SampleApp in Android Studio located in the main SDK folder. It will install the dependencies, and once completed, you can run it on an Android device to test with the Kardia ECG device.
 
-#### Using Raptor
+### Using Raptor
 
 The following steps must be followed:
 
