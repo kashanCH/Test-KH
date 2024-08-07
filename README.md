@@ -1,4 +1,4 @@
-# io.chealth.plugins.contour-next-one
+# io.chealth.plugins.alivecor-ecg
 
 [AliveCor Architecture](https://www.notion.so/currenthealth/AliveCor-2-0-Initiative-Overview-d2c16585f8b64acba427b7d4e46e97f2?pvs=4)
 
