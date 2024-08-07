@@ -70,7 +70,7 @@ For iOS Download SDK from [Kardia iOS SDK 1.5.1 ](https://www.notion.so/currenth
 
 Open the AliveCorKitExample.xcodeproj file located in the sdk folder using Xcode to test the Kardia app. Install the app on a real iOS device to test it with the Kardia ECG device.
 
-#### For iOS
+#### For Android
 
 For Android Download SDK from [Kardia Android SDK 1.5.1 ](https://www.notion.so/currenthealth/Team-Capybara-00a693c44694414486c7639d15a47674?pvs=4#1c11167b48cc4f2b8aeca74c82109e13)
 
@@ -78,14 +78,37 @@ Open the SampleApp in Android Studio located in the main SDK folder. It will ins
 
 #### Using Raptor
 
-Following steps must be followed
+The following steps must be followed:
 
-- Checkout RaptorV2 Main Branch from [Repo](https://github.com/snap40/RaptorV2)
-- Add ECG device serial number in crashbaord. Contact with Capybara team to add yoru device.
-- Follwoing RapotorV2 Read to install on iOS or Android Devices.
-- In Raptor App you can find ECG ICON under New Reading Screen to initiate the ECG scanning flow. 
+- Check out the RaptorV2 main branch from the [Repo](https://github.com/snap40/RaptorV2)
+- Add the ECG device serial number in Crashboard. Contact the Capybara team to add your device.
+- Follow the RaptorV2 repository README to install on iOS or Android devices.
+- In the Raptor app, you can find the ECG icon under the 'New Reading' screen to initiate the ECG scanning flow.
+
+## Test
+
+## Running Android Test Cases
+
+Open the project in Android Studio and find the files under io.chealth.plugins.alivecor6l/android/src/test
+
+Just run these classes using the provided Android Studio run option.
+
+Alternatively, go into the Android directory of the plugin using the terminal and run the below command:
 
 
+```bash
+npm test./gradlew clean
+./gradlew build
+```
+
+## Running iOS Test Cases
+
+#### Running test cases can be done by either of the below two ways.
+
+Navigate to the iOS folder. io.chealth.plugins.alivecor6l/iOS/AlivecorECGPluginTests
+
+- To run all tests, go to the top menu and select Product > Test, or simply use the shortcut Command + U. 
+- To run a specific test case or test method, click the diamond icon next to the test or method name in the code editor.
 
 
 
