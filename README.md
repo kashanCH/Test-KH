@@ -89,6 +89,8 @@ Open the SampleApp in Android Studio located in the main SDK folder. It will ins
 
 The following steps must be followed:
 
+[Building AliveCor in raptor, a (quick) guide ](https://www.notion.so/currenthealth/Building-AliveCor-in-raptor-a-quick-guide-1b9cbf3ea6c94dfbbab702d4b5ad89ca?pvs=4)
+
 - Check out the RaptorV2 main branch from the [Repo](https://github.com/snap40/RaptorV2)
 - Add the ECG device serial number in Crashboard. Contact the Capybara team to add your device.
 - Follow the RaptorV2 repository README to install on iOS or Android devices.
