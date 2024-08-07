@@ -140,9 +140,11 @@ The `onAction` method in the provided code serves as a bridge between the plugin
 
 ### onAction(...)
 
-Android Plugin OnAction https://github.com/snap40/io.chealth.plugins.alivecor6l/blob/main/android/src/main/java/io/chealth/plugins/AlivecorEcgPlugin.kt
-iOS Plugin OnAction: https://github.com/snap40/io.chealth.plugins.alivecor6l/blob/b1890c210f6ba67a3926e816c8edc55054ce9057/ios/AlivecorECGPlugin/AlivecorECGPlugin/Classes/CapacitorPlugin/AlivecorEcgPlugin%2BCapacitor.swift#L16
-Web Plugin OnAction: https://github.com/snap40/RaptorV2/blob/71218e7ed370da6a2df07e76f5142fa4756420bc/projects/raptor-shared/src/lib/pages/configurable-reading-flow/flow-orchestrator.service.ts#L4
+- Android Plugin [OnAction ](https://github.com/snap40/io.chealth.plugins.alivecor6l/blob/main/android/src/main/java/io/chealth/plugins/AlivecorEcgPlugin.kt)
+
+- iOS Plugin [OnAction ](https://github.com/snap40/io.chealth.plugins.alivecor6l/blob/b1890c210f6ba67a3926e816c8edc55054ce9057/ios/AlivecorECGPlugin/AlivecorECGPlugin/Classes/CapacitorPlugin/AlivecorEcgPlugin%2BCapacitor.swift#L16)  
+
+- Web Plugin [OnAction ](https://github.com/snap40/RaptorV2/blob/71218e7ed370da6a2df07e76f5142fa4756420bc/projects/raptor-shared/src/lib/pages/configurable-reading-flow/flow-orchestrator.service.ts#L4)   
 
 ```typescript
 onAction(options: { actionName: string; ourContext: any; }, onComplete: PluginCallback) => Promise<{ type: string; data: any; }>
