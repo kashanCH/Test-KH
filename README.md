@@ -12,10 +12,9 @@ AliveCor Plugin for iOS and Android flows, to communicate with AliveCor ECG devi
 
 - Not applicable
 
-#### Follow below steps to get Kardia JWT Token to run on local machine
-Kardia API JWT token we can get using docker setup. 
+#### To obtain the Kardia JWT token to run on your local machine, follow the steps below using a Docker setup.
 
-### Note: you can generate the JWT token using docker. Install docker from [Docker](https://docs.docker.com/engine/install/)
+### Install docker from [Docker](https://docs.docker.com/engine/install/)
 
 ### Ensure that you are using following docker command for kardia sandbox environment. Run below command in Terminal. 
 
@@ -23,7 +22,7 @@ Kardia API JWT token we can get using docker setup.
 docker run --env KARDIA_ACCESS_KEY=9htu7p3o --env KARDIA_SECRET_KEY=91zazqim --env KARDIA_ENV=sandbox -p 8080:8080 kardiasdk/kardia-auth-server ./kardia-auth-server
 ```
 
-### Now you can get get the JWT using below API with its body parameters. Use curl or postman to call the API. 
+### You can now obtain the JWT using the API below with the specified body parameters. Use cURL or Postman to call the API.
 
 API URL: http://localhost:8080/token
 
@@ -36,9 +35,21 @@ API URL: http://localhost:8080/token
 }
 ```
 
-### Once server setup you can run the above mentioend /token service to get the JWT token. 
+### Once the server is set up, you can run the mentioned /token service to obtain the JWT token.
 
-## The exmaple of this plugin is created with Capacitor Create App
+#### Kardia ECG Device 
+
+- To test, you must have a Kardia ECG device.
+- The Kardia ECG device can only be tested on a real iOS or Android device with Bluetooth enabled.
+- Please ensure the device is connected before running the iOS or Android app if it does not connect automatically.
+
+#### Build project
+We can run the AliveCor plugin using the following methods:
+- Exmaple using Capacitor Create App
+- Using Kardia SDK Sample App
+- Using Raptor
+
+### The exmaple of this plugin is created with Capacitor Create App
 
 This app was created using [`@capacitor/create-app`](https://github.com/ionic-team/create-capacitor-app),
 and comes with a very minimal shell for building an app.
@@ -51,18 +62,7 @@ To run the provided example, you can use `npm start` command.
 npm start
 ```
 
-#### Kardia ECG Device 
-
-- To test you must have Kardia ECG device.
-- Kardia ECG device test only possible on real iOS and Android device with blutooth enabled.
-- Please make sure you connect the device before running the iOS or Android if its not connected automatcially. 
-
-#### Build project
-We can also run alivecor plugin 
-- Using Sample App
-- Using Raptor
-
-#### Using Sample App
+### Using Sample App
 
 For iOS Download SDK from [Kardia iOS SDK 1.5.1 ](https://www.notion.so/currenthealth/Team-Capybara-00a693c44694414486c7639d15a47674?pvs=4#cb84c972508a439aa0e5699b25590125)
 
