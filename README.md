@@ -95,6 +95,7 @@ The following steps must be followed:
 - In the Raptor app, you can find the ECG icon under the 'New Reading' screen to initiate the ECG scanning flow.
 
 [Building AliveCor in raptor, a (quick) guide ](https://www.notion.so/currenthealth/Building-AliveCor-in-raptor-a-quick-guide-1b9cbf3ea6c94dfbbab702d4b5ad89ca?pvs=4)
+Skip **Get AliveCor JWT token** section. 
 
 ## Test
 
