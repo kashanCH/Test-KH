@@ -58,6 +58,13 @@ and comes with a very minimal shell for building an app.
 
 To run the provided example, you can use `npm start` command.
 
+## Install
+
+```bash
+npm install alivecor6l
+npx cap sync
+```
+
 ```bash
 npm start
 ```
@@ -113,12 +120,6 @@ Navigate to the iOS folder. io.chealth.plugins.alivecor6l/iOS/AlivecorECGPluginT
 
 
 
-## Install
-
-```bash
-npm install alivecor6l
-npx cap sync
-```
 
 ## Releasing
 
