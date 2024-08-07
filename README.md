@@ -12,33 +12,20 @@ AliveCor Plugin for iOS and Android flows, to communicate with AliveCor ECG devi
 
 - Not applicable
 
-## Local Development:
-With regards to the local development and testing the plugins you can refer to the [Test Example ](https://github.com/snap40/io.chealth.plugins.alivecor6l/tree/main/example)
+#### Follow below steps to get Kardia JWT Token to run on local machine
+Kardia API JWT token we can get using docker setup. 
 
-## Installing Plugin into the project
+### Note: you can generate the JWT token using docker. Install docker from [Docker](https://docs.docker.com/engine/install/)
 
-```bash
-npm install @currenthealth/io.chealth.plugins.alivecor.ecg
-npm cap sync
-```
+### Ensure that you are using following docker command for kardia sandbox environment. Run below command in Terminal. 
 
 ```bash
-npx cap sync
+docker run --env KARDIA_ACCESS_KEY=9htu7p3o --env KARDIA_SECRET_KEY=91zazqim --env KARDIA_ENV=sandbox -p 8080:8080 kardiasdk/kardia-auth-server ./kardia-auth-server
 ```
 
-#### Prerequisites
-Developer should have Android Studio and XCode installed in their system for Android and iOS Builds respectively.
+### Now you can get get the JWT using below API with its body parameters. Use curl or postman to call the API. 
 
-## Build
-### Download all the dependencies and build the js project
-`npm install`
-
-### For Android
-#### Open Android studio
-`npx cap open android`
-
-#### API to get token on local machine
-http://localhost:8080/token
+API URL: http://localhost:8080/token
 
 ```bash
 {
@@ -48,13 +35,7 @@ http://localhost:8080/token
 "teamId": "qNc1HfcEvMfVt7ndVqUwcvdlnl1zkrl4"
 }
 ```
-### Note: you can generate the authentication token using docker. Install docker from [Docker](https://docs.docker.com/engine/install/)
 
-### ensure that you the following docker command for kardia sandbox environment 
-
-```bash
-docker run --env KARDIA_ACCESS_KEY=9htu7p3o --env KARDIA_SECRET_KEY=91zazqim --env KARDIA_ENV=sandbox -p 8080:8080 kardiasdk/kardia-auth-server ./kardia-auth-server
-```
 ### Once server setup you can run the above mentioend /token service to get the JWT token. 
 
 ## The exmaple of this plugin is created with Capacitor Create App
