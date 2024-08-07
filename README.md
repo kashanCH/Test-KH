@@ -226,6 +226,15 @@ The `ECGDetermination` enum represents various types of ECG analysis results. Ea
 
 #### PluginCallback
 
-<code>(data: <a href="#pluginresultdata">PluginResultData</a>, error?: <a href="#pluginresulterror">PluginResultError</a>): void</code>
+#### For iOS
 
+<code>(data: <a href="#pluginresultdata">PluginResultData</a>, error?: <a href="#pluginresulterror">PluginResultError</a>): void</code>
 </docgen-api>
+
+#### For Android
+
+Check callback method [ecgResult ](https://github.com/snap40/io.chealth.plugins.alivecor6l/blob/b1890c210f6ba67a3926e816c8edc55054ce9057/android/src/main/java/io/chealth/plugins/AlivecorEcgPlugin.kt)  
+
+
+
+
