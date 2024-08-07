@@ -152,9 +152,9 @@ The `onAction` method in the provided code serves as a bridge between the plugin
 onAction(options: { actionName: string; ourContext: any; }, onComplete: PluginCallback) => Promise<{ type: string; data: any; }>
 ```
 
-#### getPresigned URL
+#### getPresigned URL for S3 ECG file upload
 
-
+We have a predefined URL that we use to pass the ECG base64 string from the plugin. Before uploading this file to S3, we first obtain a pre-signed S3 bucket URL through an API. Once we have this pre-signed URL, we convert the base64 string into an MD5 hash and then pass it along with the pre-signed URL for the upload.
 
 ```bash
 curl --location -XPOST <https://dev-patient-facing.snap40.com/alivecor/upload-url
@@ -162,9 +162,10 @@ curl --location -XPOST <https://dev-patient-facing.snap40.com/alivecor/upload-ur
 ./gradlew build
 ```
 
-Presigned File Uploading [Document ](https://www.notion.so/currenthealth/AliveCor-Presigned-File-Uploading-Spike-acbe4c0185e445a181cce100e6a45719?pvs=4)   
+Presigned File Uploading [Document ](https://www.notion.so/currenthealth/Verifying-Integrity-of-Files-Uploaded-to-S3-via-a-PFS-Presigned-URL-aabaff3c6c0a41ffb4a4441fdba4d572?pvs=4)   
 
-https://www.notion.so/currenthealth/Verifying-Integrity-of-Files-Uploaded-to-S3-via-a-PFS-Presigned-URL-aabaff3c6c0a41ffb4a4441fdba4d572?pvs=4
+
+
 
 #### getReading
 
